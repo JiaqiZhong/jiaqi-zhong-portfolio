@@ -1,0 +1,113 @@
+.home {
+    background-color: #FFFDF4;
+    color: #323339;
+    min-height: 100vh;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-bar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    height: 0.5px;
+    background-color: #7D7D7D;
+}
+
+.title {
+    font-size: 40px;
+    font-family: Georgia, serif;
+    margin-bottom: 40px;
+    transform: translateY(-25px);
+    opacity: 0;
+    animation: appear 2s forwards;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-25px);
+    opacity: 0;
+    animation: appear 2s forwards;
+}
+
+.profile-photo {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.introduction {
+    font-size: 25px;
+    font-family: serif;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;;
+}
+
+.project-title {
+    font-size: 35px;
+    font-family: Georgia, serif;
+    transform: translateX(-25px);
+    opacity: 0;
+    animation: slideIn 2s forwards;
+}
+
+.project-brief {
+    font-size: 25px;
+    font-family: serif;
+    transform: translateX(25px);
+    opacity: 0;
+    animation: slideIn 2s forwards;
+}
+
+.project-image {
+    width: 100%;
+    transform: translateX(-25px);
+    opacity: 0;
+    animation: slideIn 2s forwards;
+}
+
+@media (min-width: 1024px) {
+    .about {
+        flex-direction: row;
+        gap: 40px;
+        height: 200px;
+    }
+    
+    .project-brief {
+        display: flex;
+        justify-content: end;
+    }
+
+    .home {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@keyframes appear {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
