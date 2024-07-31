@@ -5,8 +5,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app" basename="/">
-      <BrowserRouter>
+    <div className="app">
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Home />}/>
         </Routes>
