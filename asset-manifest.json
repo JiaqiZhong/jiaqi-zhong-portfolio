@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jiaqi-zhong-portfolio/static/css/main.0abfd2c9.css",
+    "main.js": "/jiaqi-zhong-portfolio/static/js/main.c7ffe5e8.js",
+    "static/js/453.70cbce2a.chunk.js": "/jiaqi-zhong-portfolio/static/js/453.70cbce2a.chunk.js",
+    "static/media/SenexDemoVideo.mp4": "/jiaqi-zhong-portfolio/static/media/SenexDemoVideo.998a148ee68a23ec9b58.mp4",
+    "static/media/FoodLens.png": "/jiaqi-zhong-portfolio/static/media/FoodLens.028907c6cbccaf7d36af.png",
+    "static/media/profile-icon.png": "/jiaqi-zhong-portfolio/static/media/profile-icon.8569aef014369d3c9c54.png",
+    "index.html": "/jiaqi-zhong-portfolio/index.html",
+    "main.0abfd2c9.css.map": "/jiaqi-zhong-portfolio/static/css/main.0abfd2c9.css.map",
+    "main.c7ffe5e8.js.map": "/jiaqi-zhong-portfolio/static/js/main.c7ffe5e8.js.map",
+    "453.70cbce2a.chunk.js.map": "/jiaqi-zhong-portfolio/static/js/453.70cbce2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0abfd2c9.css",
+    "static/js/main.c7ffe5e8.js"
+  ]
+}
