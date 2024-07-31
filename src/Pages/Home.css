@@ -16,7 +16,7 @@
 }
 
 .title {
-    font-size: 40px;
+    font-size: 35px;
     font-family: Georgia, serif;
     margin-bottom: 40px;
     transform: translateY(-25px);
@@ -35,12 +35,12 @@
 }
 
 .profile-photo {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 150px;
+    max-width: 150px;
 }
 
 .introduction {
-    font-size: 25px;
+    font-size: 18px;
     font-family: serif;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .project-title {
-    font-size: 35px;
+    font-size: 30px;
     font-family: Georgia, serif;
     transform: translateX(-25px);
     opacity: 0;
@@ -66,7 +66,7 @@
 }
 
 .project-brief {
-    font-size: 25px;
+    font-size: 18px;
     font-family: serif;
     transform: translateX(25px);
     opacity: 0;
@@ -95,6 +95,23 @@
     .home {
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .project-title {
+        font-size: 35px;
+    }
+
+    .introduction, .project-brief {
+        font-size: 22px;
+    }
+
+    .profile-photo {
+        max-height: 200px;
+        max-width: 200px;
     }
 }
 
