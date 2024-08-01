@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jiaqi-zhong-portfolio/static/css/main.ad5eb6bb.css",
-    "main.js": "/jiaqi-zhong-portfolio/static/js/main.e72c08aa.js",
+    "main.css": "/jiaqi-zhong-portfolio/static/css/main.e4261730.css",
+    "main.js": "/jiaqi-zhong-portfolio/static/js/main.104edbea.js",
     "static/js/453.70cbce2a.chunk.js": "/jiaqi-zhong-portfolio/static/js/453.70cbce2a.chunk.js",
     "static/media/profile.jpg": "/jiaqi-zhong-portfolio/static/media/profile.a97f9626400d3753a43a.jpg",
     "index.html": "/jiaqi-zhong-portfolio/index.html",
-    "main.ad5eb6bb.css.map": "/jiaqi-zhong-portfolio/static/css/main.ad5eb6bb.css.map",
-    "main.e72c08aa.js.map": "/jiaqi-zhong-portfolio/static/js/main.e72c08aa.js.map",
+    "main.e4261730.css.map": "/jiaqi-zhong-portfolio/static/css/main.e4261730.css.map",
+    "main.104edbea.js.map": "/jiaqi-zhong-portfolio/static/js/main.104edbea.js.map",
     "453.70cbce2a.chunk.js.map": "/jiaqi-zhong-portfolio/static/js/453.70cbce2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5eb6bb.css",
-    "static/js/main.e72c08aa.js"
+    "static/css/main.e4261730.css",
+    "static/js/main.104edbea.js"
   ]
 }
