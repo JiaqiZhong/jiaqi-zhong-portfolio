@@ -83,6 +83,8 @@
     transform: translateX(25px);
     opacity: 0;
     animation: slideIn 2s forwards;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .project-image {

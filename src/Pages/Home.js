@@ -25,8 +25,8 @@ function Home() {
               <p className="external-link">
                 {project.externalLink.type}: <a href={project.externalLink.link} target="_blank" rel="noopener noreferrer">{project.externalLink.link}</a>
               </p>
-              <div class="video-container">
-                <iframe src={project.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div className="video-container">
+                <iframe src={project.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </div>
           )
