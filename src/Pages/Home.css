@@ -16,12 +16,15 @@
 }
 
 .title {
-    font-size: 35px;
+    font-size: 30px;
     font-family: Georgia, serif;
     margin-bottom: 40px;
     transform: translateY(-25px);
     opacity: 0;
     animation: appear 2s forwards;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .about {
@@ -37,6 +40,7 @@
 .profile-photo {
     max-height: 150px;
     max-width: 150px;
+    border-radius: 50%;
 }
 
 .introduction {
@@ -98,7 +102,7 @@
     }
 
     .title {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .project-title {
