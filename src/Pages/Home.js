@@ -1,5 +1,5 @@
 import React from 'react';
-import profileIcon from '../Images/profile.jpg';
+import profile from '../Images/profile.jpg';
 import CapstoneDemo from '../Videos/SenexDemo.mp4';
 import FoodLensDemo from '../Videos/FoodLensDemo.mp4';
 import './Home.css';
@@ -14,7 +14,7 @@ function Home() {
     <div className="home">
       <h1 className="title">Jiaqi Zhong (Roxanne)</h1>
       <div className="about">
-        <img className="profile-photo" src={profileIcon} alt="profile"/>
+        <img className="profile-photo" src={profile} alt="profile"/>
         <p className="introduction">Welcome to my web development portfolio! Here, you’ll find a selection of my projects, from dynamic React apps to robust backend systems. Each project demonstrates my skills in modern web technologies and my commitment to creating functional, user-friendly, and visually appealing web solutions. Explore my work to see the creativity and technical expertise I bring to every project.</p>
       </div>
       <hr className="horizontal-bar" />
